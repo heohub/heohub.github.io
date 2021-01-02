@@ -142,3 +142,47 @@ h3:after {
   box-shadow: 0 1px 0 #b0c5d2;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .contact_container,
+  .project {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin: 0.5em;
+  }
+
+  .project_context,
+  .project_image {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project_image img {
+    width: 100%;
+  }
+
+  .project_info {
+    text-align: center;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  .project_image {
+    order: 1;
+  }
+
+  .project_context {
+    order: 2;
+  }
+}
